@@ -6,5 +6,10 @@
                 echo "code is generating"
             }
         }
+         stage ('test') {
+            steps {
+                echo "code is generating"
+            }
+        }
     }
 }
